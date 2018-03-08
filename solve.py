@@ -80,4 +80,4 @@ fout = open(name + '.out', 'w')
 for i in range(fleet):
     print(len(fleet_rid[i]), *fleet_rid[i], file=fout)
 fout.close()
-print('PRIZE:', sum_b)
+# print('PRIZE:', sum_b)
